@@ -351,3 +351,8 @@ MigrationBackup/
 
 # Environment tokens
 .env
+
+# react packages
+node_modules
+.DS_Store
+build
