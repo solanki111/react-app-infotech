@@ -3,7 +3,7 @@
 :root {
   --light: #d0d1d3;
   --dark: #040d14;
-  --green: #21ce99;
+  --green: rgb(27, 179, 151);
 }
 
 body {

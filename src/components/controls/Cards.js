@@ -1,11 +1,16 @@
 import React from 'react';
 import '../../styles/css/Cards.css';
 import CardItem from './CardItem';
-import img_1 from '../../styles/images/img-9.jpg'
-import img_2 from '../../styles/images/img-2.jpg'
-import img_3 from '../../styles/images/img-3.jpg'
-import img_4 from '../../styles/images/img-4.jpg'
-import img_5 from '../../styles/images/img-8.jpg'
+// import img_1 from '../../styles/images/img-9.jpg'
+// import img_2 from '../../styles/images/img-2.jpg'
+// import img_3 from '../../styles/images/img-3.jpg'
+// import img_4 from '../../styles/images/img-4.jpg'
+// import img_5 from '../../styles/images/img-8.jpg'
+import main_1 from '../../styles/images/mainframe-1.jpeg'
+import main_2 from '../../styles/images/mainframe-2.jpeg'
+import dm from '../../styles/images/Digital-Market.jpeg'
+import wd from '../../styles/images/web-design.jpeg'
+import ux from '../../styles/images/UX.jpeg'
 import video_1 from '../../styles/videos/video-1.mp4'
 
 function Cards() {
@@ -17,32 +22,32 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={img_1}
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'/>
+              src={main_1}
+              text=''
+              label='Integrated Operations & Application Management Services (IOAMS)'
+              path='/ioams'/>
             <CardItem
-              src={img_2}
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'/>
-          </ul>
-          <ul className='cards__items'>
+              src={main_2}
+              text=''
+              label='Mainframe Application Consulting Services'
+              path='/mainframe'/>
+          {/* </ul>
+          <ul className='cards__items'> */}
             <CardItem
-              src={img_3}
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'/>
+              src={dm}
+              text=''
+              label='Digital Marketing Services'
+              path='/digital-marketing'/>
             <CardItem
-              src={img_4}
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'/>
+              src={wd}
+              text=''
+              label='Web Design/UI/UX Consulting and Services'
+              path='/web-design'/>
             <CardItem
-              src={img_5}
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src={ux}
+              text=''
+              label='App Development/Design Services'
+              path='/app-dev'
             />
           </ul>
         </div>
